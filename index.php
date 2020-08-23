@@ -21,7 +21,7 @@
           </div> 
 
           <div class="col-12 col-lg-8 input">
-            <input type="text" name="PostCode" placeholder="160-0022" id="PostCode"/>
+            <input type="text" name="PostCode" placeholder="160-0022" id="PostCode" value="160-0022"/>
           </div>
 
           <div class="col-12 col-lg-2 submitButton">
