@@ -31,7 +31,7 @@ if(!empty($_POST)) {
         $weatherApiKey = getenv("WEATHER_API_KEY");
         echo $weatherApiKey;
         
-        $urlContents = curl("http://api.openweathermap.org/data/2.5/weather?q=".$_POST['PostCode']."&type=accurate&appid=e50053895b5be0faf292890605b626ee");
+        $urlContents = curl("http://api.openweathermap.org/data/2.5/weather?q=".$_POST['PostCode']."&type=accurate&appid=");
         
         $weatherArray = json_decode($urlContents, true);
         
